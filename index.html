@@ -8,43 +8,19 @@
     <title>Parcial II</title>
 </head>
 <body>
-    <div class="general-container container">
+    <div id="general-container" class="general-container container">
         <div class="left-side-container container">
                 
             <div class="menu-container container">
                 <button id="table-button" class="menu-button" onclick="addTableAndFormContainers()">Tabla</button>
                 <button id="cards-button" class="menu-button">Cards</button>
-                <button id="dynamic-button" class="menu-button">Carga dinámica</button>
+                <button id="dynamic-button" class="menu-button" onclick="changeColor()">Carga dinámica</button>
             </div>
         
         </div>
         <div class="right-side-container container">
 
             <div class="content-container container" id="content-container">
-                <!-- <div class="table-and-form-container">
-                    <div class="form-container">
-                        <form>
-                            <input type="text" id="name" placeholder="Nombre">
-                            <input type="text"  id="lastname" placeholder="Apellido">
-                            <input type="text"  id="carne" placeholder="Carné">
-                            <input type="button" id="add-button" onclick="addStudent()" value="Guardar">
-                        </form>
-                    </div>
-                    <div class="table-container">
-                        <table id="table">
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Apellido</th>
-                                <th>Carné</th>
-                            </tr>
-                            <tr>
-                                <td>Javier</td>
-                                <td>Marroquín</td>
-                                <td>0907-20-22352</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div> -->
             </div>
 
             <div class="footer-container container">
@@ -54,5 +30,6 @@
     </div>
 
     <script src="js/table/table.js"></script>
+    <script src="js/dynamic/loadScript.js"></script>
 </body>
 </html>
